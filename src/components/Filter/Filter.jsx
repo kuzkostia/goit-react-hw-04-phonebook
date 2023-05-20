@@ -10,8 +10,8 @@ const Filter = ({ filter, onChangeInput }) => {
       </label>
       <input
         className={css.filter}
-        onChange={onChangeInput} // при зміні значення поля - виклик функції onChangeInput
-        value={filter} // початкове значення, яке зберігається в filter
+        onChange={onChangeInput} 
+        value={filter} 
         type="text"
         name="filter"
       />
